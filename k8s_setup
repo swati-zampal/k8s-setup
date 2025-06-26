@@ -1,4 +1,6 @@
 (Run on both nodes) 
+sudo swapoff -a
+sleep 2
 sudo apt-get update –y 
 sudo apt-get install docker.io –y 
 sudo apt-get install -y apt-transport-https ca-certificates curl gnupg 
